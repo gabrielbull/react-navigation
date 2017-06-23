@@ -660,3 +660,5 @@ export class Transitioner extends React.Component<
 > {
 
 }
+
+export function withNavigation<P>(component: React.SFC<P & InjectedProps> | React.ComponentClass<P & InjectedProps> | React.ClassType<P & InjectedProps, any, any>): React.ComponentClass<P>;
